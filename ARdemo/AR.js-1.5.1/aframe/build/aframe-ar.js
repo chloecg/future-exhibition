@@ -8062,6 +8062,10 @@ AFRAME.registerComponent('arjs-anchor', {
 				arProfile.defaultMarkerParameters.type = 'pattern'
 				arProfile.defaultMarkerParameters.patternUrl = THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-kanji.patt'
 				arProfile.defaultMarkerParameters.markersAreaEnabled = false
+			}else if( _this.data.preset === 'gao' ){
+				arProfile.defaultMarkerParameters.type = 'pattern'
+				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/futureExhibition/ARdemo/arjs/patts/pattern-gao.patt'
+				arProfile.defaultMarkerParameters.markersAreaEnabled = false
 			}else if( _this.data.preset === 'area' ){
 				arProfile.defaultMarkerParameters.type = 'barcode'
 				arProfile.defaultMarkerParameters.barcodeValue = 1001	
