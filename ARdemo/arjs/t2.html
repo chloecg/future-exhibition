@@ -18,7 +18,7 @@
 		<a-assets>
 			<a-asset-item id='tree-obj' src='models/little-fox/model.obj'></a-asset-item>
 			<a-asset-item id='tree-mtl' src='models/little-fox/materials.mtl'></a-asset-item>
-			<video id='test-mp4' autoplay="true" loop="true" src='models/jellyfish.webm'></video>
+			<!-- <video id='test-mp4' autoplay="true" loop="true" src='models/jellyfish.webm'></video> -->
 		</a-assets>
 
 		<!-- Create a anchor to attach your augmented reality -->
@@ -27,8 +27,8 @@
 		<a-anchor hit-testing-enabled='true'>
 
 			<a-entity id="logo" rotation="0 45 0" scale='0.8 0.8 0.8'>
-				
-				<a-video src="#test-mp4" width="16" height="9" position="0 0 -1"></a-video>
+
+				<!-- <a-video src="#test-mp4" width="16" height="9" position="0 0 -1"></a-video> -->
 
 				<!-- firefox model -->
 				<a-entity obj-model='obj: #tree-obj; mtl: #tree-mtl' position='0 0.8 0' rotation='0 90 0' shadow='receive: true'></a-entity>
