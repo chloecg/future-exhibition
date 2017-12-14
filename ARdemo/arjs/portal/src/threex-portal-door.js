@@ -4,7 +4,7 @@ var THREEx = THREEx || {}
 THREEx.Portal360 = function(videoImageURL, doorWidth, doorHeight){
 
 	var doorCenter = new THREE.Group
-	doorCenter.position.y = doorHeight/1.5
+	doorCenter.position.y = doorHeight
 	this.object3d = doorCenter
 
 	//////////////////////////////////////////////////////////////////////////////
