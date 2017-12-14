@@ -4,7 +4,7 @@ var THREEx = THREEx || {}
 THREEx.Portal360 = function(videoImageURL, doorWidth, doorHeight){
 
 	var doorCenter = new THREE.Group
-	doorCenter.position.y = doorHeight/2
+	doorCenter.position.y = doorHeight/4
 	this.object3d = doorCenter
 
 	//////////////////////////////////////////////////////////////////////////////
@@ -125,7 +125,7 @@ THREEx.Portal360.prototype._buildInsideMesh	= function(texture360, doorWidth, do
 	var material = THREEx.Portal360.buildTransparentMaterial()
 	// var material = new THREE.MeshNormalMaterial()
 	var mesh = new THREE.Mesh( geometry, material)
-	mesh.rotation.y = Math.PI
+	mesh.rotation.y = Math.PI*0.5
 	// mesh.position.z = 0.03
 	doorInsideCenter.add( mesh )
 
