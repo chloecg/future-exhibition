@@ -147,7 +147,7 @@ THREEx.Portal360.prototype._buildInsideMesh	= function(texture360, doorWidth, do
 	// var material = new THREE.MeshNormalMaterial()
 	var sphere360Mesh = new THREE.Mesh( geometry, material );
 	sphere360Mesh.position.z = -0.1
-	sphere360Mesh.rotation.y = Math.PI
+	sphere360Mesh.rotation.y = Math.PI*0.5
 	doorInsideCenter.add(sphere360Mesh)
 
 	return doorInsideCenter
