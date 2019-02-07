@@ -8064,11 +8064,11 @@ AFRAME.registerComponent('arjs-anchor', {
 				arProfile.defaultMarkerParameters.markersAreaEnabled = false
 			}else if( _this.data.preset === 'gao' ){
 				arProfile.defaultMarkerParameters.type = 'pattern'
-				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/futureExhibition/ARdemo/arjs/patts/pattern-gao.patt'
+				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/future-exhibition/ARdemo/arjs/patts/pattern-gao.patt'
 				arProfile.defaultMarkerParameters.markersAreaEnabled = false
 			}else if( _this.data.preset === 'ajc' ){
 				arProfile.defaultMarkerParameters.type = 'pattern'
-				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/futureExhibition/ARdemo/arjs/patts/pattern-ajc.patt'
+				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/future-exhibition/ARdemo/arjs/patts/pattern-ajc.patt'
 				arProfile.defaultMarkerParameters.markersAreaEnabled = false
 			}else if( _this.data.preset === 'area' ){
 				arProfile.defaultMarkerParameters.type = 'barcode'
@@ -8077,7 +8077,7 @@ AFRAME.registerComponent('arjs-anchor', {
 			}
 			else if( _this.data.preset === 'moma' ){
 				arProfile.defaultMarkerParameters.type = 'pattern'
-				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/futureExhibition/ARdemo/arjs/patts/pattern-moma.patt'
+				arProfile.defaultMarkerParameters.patternUrl = 'https://cgao.me/future-exhibition/ARdemo/arjs/patts/pattern-moma.patt'
 				arProfile.defaultMarkerParameters.markersAreaEnabled = false
 			}else {
 				// console.assert( this.data.preset === '', 'illegal preset value '+this.data.preset)
